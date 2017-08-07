@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:layout_height="match_parent">
+
+
+
+
+
+    <LinearLayout
+        style="?android:attr/borderlessButtonStyle"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/thither_city_ll"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Калининград"
+            android:id="@+id/thither_city"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Все аэропорты"
+            android:textSize="10dp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/darker_gray"
+            android:layout_gravity="center"
+            android:layout_height="1dp"/>
+
+        <ImageView
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_weight="9"
+            android:clickable="true"
+            android:id="@+id/trade_city_btn"
+            android:background="@drawable/exchange"
+            android:layout_marginRight="15dp"
+            android:layout_height="25dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        style="?android:attr/borderlessButtonStyle"
+
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/back_city_ll"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Moscow"
+            android:textColor="@android:color/white"
+            android:id="@+id/back_city_name"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Все аэропорты"
+            android:textSize="10dp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:background="@android:color/darker_gray"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="1dp"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:clickable="true"
+            style="?android:attr/borderlessButtonStyle"
+            android:id="@+id/thither_date_ll"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="10dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/darker_gray"
+                android:text="@string/thither_string_content_main" />
+
+            <TextView
+                android:id="@+id/date_thither"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:text="17 февр.,пт"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:visibility="gone"
+            style="?android:attr/borderlessButtonStyle"
+            android:id="@+id/back_date_ll"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="@android:color/darker_gray"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:text="@string/back_string_tv_main" />
+
+            <TextView
+                android:id="@+id/date_back"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="17 февр.,пт"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+            <Button
+                android:layout_width="25dp"
+                android:id="@+id/back_invisible_btn"
+                android:layout_gravity="center"
+                style="?android:attr/borderlessButtonStyle"
+                android:background="@drawable/plus_button"
+                android:layout_height="25dp" />
+
+            </LinearLayout>
+
+        <Button
+            android:id="@+id/back_date_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="5dp"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimary"
+            android:layout_marginLeft="10dp"
+            android:textSize="10dp"
+            android:drawableLeft="@drawable/icn_booking_add"
+            android:text="обратно" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:background="@android:color/darker_gray"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="1dp"/>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_add_adult"
+                android:layout_width="20dp"
+                style="?android:attr/borderlessButtonStyle"
+                android:background="@drawable/icn_booking_add"
+                android:layout_marginLeft="10dp"
+                android:layout_height="20dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_height="40dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="1"
+                    android:id="@+id/value_adult_tv"
+                    android:textColor="@android:color/white"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:background="@drawable/ic_icn_booking_passenger_adult"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="@string/adult_txt_content_main"
+                android:textColor="@android:color/white"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:layout_width="20dp"
+                android:layout_margin="10dp"
+                style="?android:attr/borderlessButtonStyle"
+                android:id="@+id/btn_delete_adult"
+                android:background="@drawable/icn_booking_delete"
+                android:layout_height="20dp" />
+
+
+        </LinearLayout>
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+
+
+            <Button
+                android:layout_width="20dp"
+                style="?android:attr/borderlessButtonStyle"
+                android:background="@drawable/icn_booking_add"
+                android:layout_marginLeft="10dp"
+                android:clickable="true"
+                android:id="@+id/btn_add_kid"
+                android:layout_height="20dp" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_height="40dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="0"
+                    android:textColor="@android:color/white"
+                    android:layout_gravity="center"
+                    android:id="@+id/value_kid_tv"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_icn_booking_passenger_kid"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@android:color/white"
+                android:text="@string/kid_txt_content_main"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                style="?android:attr/borderlessButtonStyle"
+                android:id="@+id/btn_delete_kid"
+                android:layout_margin="10dp"
+                android:background="@drawable/icn_booking_delete" />
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="20dp"
+                style="?android:attr/borderlessButtonStyle"
+                android:background="@drawable/icn_booking_add"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/btn_add_baby"
+                android:layout_height="20dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_height="40dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="0"
+                    android:id="@+id/value_baby_tv"
+                    android:textColor="@android:color/white"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_icn_booking_passenger_baby"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="@string/baby_txt_content_main"
+                android:textColor="@android:color/white"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:layout_width="20dp"
+                android:layout_margin="10dp"
+                style="?android:attr/borderlessButtonStyle"
+                android:id="@+id/btn_delete_baby"
+                android:background="@drawable/icn_booking_delete"
+                android:layout_height="20dp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/next_weather_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:textColor="@android:color/white"
+        android:textSize="10dp"
+        android:background="#00008B"
+        android:text="Найти рейсы" />
+    </RelativeLayout>
+
+
+</LinearLayout>

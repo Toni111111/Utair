@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">KodeUtair</string>
+    <string name="action_settings">Settings</string>
+    <string name="api_key">5e676e3337136b206f116e355d3a1b3c</string>
+    <string name="thither_string_content_main">Туда</string>
+    <string name="adult_txt_content_main">Взрослый</string>
+    <string name="kid_txt_content_main">2-12 лет</string>
+    <string name="baby_txt_content_main">До 2-х лет</string>
+    <string name="title_activity_selection_city">SelectionCityActivity</string>
+    <string name="back_string_tv_main">Обратно</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
